@@ -1,0 +1,71 @@
+{
+  "_from": "simdjson",
+  "_id": "simdjson@0.9.2",
+  "_inBundle": false,
+  "_integrity": "sha512-CW97acb8ty4EcxJGsCTrgxh1iiqLKbcuaIAte4DjPdoytK2ps1cRN1HpBJjIzqaL5cn1m/Dqc4AqA6NlKPPKKA==",
+  "_location": "/simdjson",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "simdjson",
+    "name": "simdjson",
+    "escapedName": "simdjson",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/simdjson/-/simdjson-0.9.2.tgz",
+  "_shasum": "12faa625c17e3976cf1c9bf87911b36fb29d8f12",
+  "_spec": "simdjson",
+  "_where": "/home/junshu/Documents/Architecture/simdjson",
+  "author": {
+    "name": "Luiz Peres"
+  },
+  "bugs": {
+    "url": "https://github.com/luizperes/simdjson_nodejs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-addon-api": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Parsing gigabytes of JSON per second",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "mocha": "^8.1.3",
+    "node-gyp": "^6.1.0"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/luizperes/simdjson_nodejs#readme",
+  "keywords": [
+    "json",
+    "parser",
+    "simd",
+    "jsonparser",
+    "parsing"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "simdjson",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizperes/simdjson_nodejs.git"
+  },
+  "scripts": {
+    "benchmark": "node benchmark/benchmark.js",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "install": "node-gyp rebuild",
+    "test": "mocha tests/*.js"
+  },
+  "types": "index.d.ts",
+  "version": "0.9.2"
+}

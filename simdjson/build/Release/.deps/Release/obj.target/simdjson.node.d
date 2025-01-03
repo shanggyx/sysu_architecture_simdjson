@@ -1,0 +1,1 @@
+cmd_Release/obj.target/simdjson.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=simdjson.node -o Release/obj.target/simdjson.node -Wl,--start-group Release/obj.target/simdjson/simdjson/main.o Release/obj.target/simdjson/simdjson/src/simdjson.o Release/obj.target/simdjson/simdjson/bindings.o -Wl,--end-group 
